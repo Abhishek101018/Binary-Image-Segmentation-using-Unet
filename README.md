@@ -4,7 +4,7 @@ This repository contains a full training pipeline for binary image segmentation 
 
 ---
 
-## 🧠 What is U-Net?
+##  What is U-Net?
 
 U-Net is a type of Convolutional Neural Network (CNN) originally designed for biomedical image segmentation. It was introduced in the 2015 paper *"U-Net: Convolutional Networks for Biomedical Image Segmentation"* by Ronneberger et al.
 
@@ -18,7 +18,7 @@ U-Net is popular because it can work with fewer training images and yields more 
 
 ---
 
-## 🏗 U-Net Architecture (Implemented Here)
+##  U-Net Architecture (Implemented Here)
 
 ```
 Input Image
@@ -125,7 +125,7 @@ train_unet("input", "output", "test", epochs=25, batch_size=8, lr=1e-3)
 
 ---
 
-## 🖼 Example Results
+##  Example Results
 
 After training, each image in the `test/` folder will produce a corresponding predicted mask with:
 
@@ -134,7 +134,7 @@ After training, each image in the `test/` folder will produce a corresponding pr
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Input/output masks are resized to 256x256 during training and testing.
 - All augmentations are applied only to training data.
@@ -142,7 +142,7 @@ After training, each image in the `test/` folder will produce a corresponding pr
 
 ---
 
-## 🧪 Extensions (Ideas)
+##  Extensions (Ideas)
 
 - Use larger/deeper U-Net
 - Add more augmentations: color jitter, blur, etc.
@@ -157,7 +157,7 @@ This project is open-source and free to use under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Created by **Abhi** using PyTorch.
 
